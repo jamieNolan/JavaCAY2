@@ -30,20 +30,55 @@ object about extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*1.1*/("""<!doctype html>
-<html>
-    <head>
-        <title>About Us Page</title>
-        <style>
-            h1 """),format.raw/*6.16*/("""{"""),format.raw/*6.17*/("""
-                """),format.raw/*7.17*/("""color: red;
-            """),format.raw/*8.13*/("""}"""),format.raw/*8.14*/("""
-        """),format.raw/*9.9*/("""</style>
-    </head>
-<body> 
-    <h1>About us</h1>
-</body>
-</html>
+Seq[Any](_display_(/*1.2*/main("Products Page")/*1.23*/ {_display_(Seq[Any](format.raw/*1.25*/("""
+    
+    """),format.raw/*3.5*/("""<p class="lead">Product Catalogue</p>
+    
+    <table class="table table-bordered table-hover table-condensed">
+    
+    <thead>
+    
+    <!-- The header row-->
+    
+    <tr>
+    
+    <th>ID</th>
+    
+    <th>Name</th>
+    
+    <th>Description</th>
+    
+    <th>Stock</th>
+    
+    <th>Price</th>
+    
+    </tr>
+    
+    </thead>
+    
+    <tbody>
+    
+    <!-- Product row(s) -->
+    
+    <tr>
+    
+    <td>1</td>
+    
+    <td>Television</td>
+    
+    <td>Sony 42" LCD"</td>
+    
+    <td>100</td>
+    
+    <td>720.00</td>
+    
+    </tr>
+    
+    </tbody>
+    
+    </table>
+    
+    """)))}),format.raw/*49.6*/("""
 """))
       }
     }
@@ -60,11 +95,11 @@ Seq[Any](format.raw/*1.1*/("""<!doctype html>
 
               /*
                   -- GENERATED --
-                  DATE: Wed Feb 14 13:35:31 GMT 2018
+                  DATE: Wed Feb 14 13:52:27 GMT 2018
                   SOURCE: /media/sf_student/play-java-seed/app/views/about.scala.html
-                  HASH: 0dba4daa6ff31092670d7917c91bcea044c9e93a
-                  MATRIX: 1030->0|1159->102|1187->103|1231->120|1282->144|1310->145|1345->154
-                  LINES: 33->1|38->6|38->6|39->7|40->8|40->8|41->9
+                  HASH: 680902e77eb34870bda4d5000e820e9441e2f2fc
+                  MATRIX: 1030->1|1059->22|1098->24|1134->34|1747->617
+                  LINES: 33->1|33->1|33->1|35->3|81->49
                   -- GENERATED --
               */
           
